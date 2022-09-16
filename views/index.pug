@@ -1,0 +1,386 @@
+doctype html
+head
+  // Basic
+  meta(charset='utf-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  // Mobile Metas
+  meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  // Site Metas
+  meta(name='keywords' content='')
+  meta(name='description' content='')
+  meta(name='author' content='')
+  title Petology
+  // slider stylesheet
+  link(rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css')
+  // bootstrap core css
+  link(rel='stylesheet' type='text/css' href='stylesheets/bootstrap.css')
+  // fonts style
+  link(href='https://fonts.googleapis.com/css?family=Dosis:400,500|Poppins:400,700&display=swap' rel='stylesheet')
+  // Custom styles for this template
+  link(href='stylesheets/style.css' rel='stylesheet')
+  // responsive style
+  link(href='stylesheets/responsive.css' rel='stylesheet')
+.hero_area
+  // header section strats
+  header.header_section
+    .container-fluid
+      nav.navbar.navbar-expand-lg.custom_nav-container
+        a.navbar-brand(href='index.html')
+          img(src='images/logo.png' alt='')
+          span
+            | Petology
+        button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarSupportedContent.collapse.navbar-collapse
+          .d-flex.mx-auto.flex-column.flex-lg-row.align-items-center
+            ul.navbar-nav
+              li.nav-item.active
+                a.nav-link(href='index.html')
+                  | Home
+                  span.sr-only (current)
+              li.nav-item
+                a.nav-link(href='service.html') service
+              li.nav-item
+                a.nav-link(href='pet.html') Pet&apos;s gallery
+              li.nav-item
+                a.nav-link(href='clinic.html')  clinic
+              li.nav-item
+                a.nav-link(href='contact.html') Contact us
+              li.nav-item
+                a.nav-link(href='buy.html')  Buy now
+            form.form-inline.my-2.my-lg-0.ml-0.ml-lg-4.mb-3.mb-lg-0
+              button.btn.my-2.my-sm-0.nav_search-btn(type='submit')
+          .quote_btn-container.d-flex.justify-content-center
+            a(href='')
+              | Call: +01 1234567890
+  // end header section
+  // slider section
+  section.slider_section.position-relative
+    #carouselExampleIndicators.carousel.slide(data-ride='carousel')
+      ol.carousel-indicators
+        li.active(data-target='#carouselExampleIndicators' data-slide-to='0')
+        li(data-target='#carouselExampleIndicators' data-slide-to='1')
+        li(data-target='#carouselExampleIndicators' data-slide-to='2')
+        li(data-target='#carouselExampleIndicators' data-slide-to='3')
+      .carousel-inner
+        .carousel-item.active
+          .container-fluid
+            .row
+              .col-md-4.offset-md-2
+                .slider_detail-box
+                  h1
+                    | Professional
+                    span
+                      | Care Your Pet
+                  p
+                    | Lorem Ipsum is simply dummy text of the printing and
+                    | typesetting industry.
+                    | Lorem Ipsum has been the industry&apos;s standard dummy text ever
+                  .btn-box
+                    a.btn-1(href='')
+                      | Buy now
+                    a.btn-2(href='')
+                      | Contact
+              .col-md-6
+                .slider_img-box
+                  img(src='images/slider-img.png' alt='')
+        .carousel-item
+          .container-fluid
+            .row
+              .col-md-4.offset-md-2
+                .slider_detail-box
+                  h1
+                    | Professional
+                    span
+                      | Care Your Pet
+                  p
+                    | Lorem Ipsum is simply dummy text of the printing and
+                    | typesetting industry.
+                    | Lorem Ipsum has been the industry&apos;s standard dummy text ever
+                  .btn-box
+                    a.btn-1(href='')
+                      | Buy now
+                    a.btn-2(href='')
+                      | Contact
+              .col-md-6
+                .slider_img-box
+                  img(src='images/slider-img.png' alt='')
+        .carousel-item
+          .container-fluid
+            .row
+              .col-md-4.offset-md-2
+                .slider_detail-box
+                  h1
+                    | Professional
+                    span
+                      | Care Your Pet
+                  p
+                    | Lorem Ipsum is simply dummy text of the printing and
+                    | typesetting industry.
+                    | Lorem Ipsum has been the industry&apos;s standard dummy text ever
+                  .btn-box
+                    a.btn-1(href='')
+                      | Buy now
+                    a.btn-2(href='')
+                      | Contact
+              .col-md-6
+                .slider_img-box
+                  img(src='images/slider-img.png' alt='')
+        .carousel-item
+          .container-fluid
+            .row
+              .col-md-4.offset-md-2
+                .slider_detail-box
+                  h1
+                    | Professional
+                    span
+                      | Care Your Pet
+                  p
+                    | Lorem Ipsum is simply dummy text of the printing and
+                    | typesetting industry.
+                    | Lorem Ipsum has been the industry&apos;s standard dummy text ever
+                  .btn-box
+                    a.btn-1(href='')
+                      | Buy now
+                    a.btn-2(href='')
+                      | Contact
+              .col-md-6
+                .slider_img-box
+                  img(src='images/slider-img.png' alt='')
+  // end slider section
+// about section
+section.about_section.layout_padding
+  .container
+    .row
+      .col-md-6
+        .img-box
+          img(src='images/about.png' alt='')
+      .col-md-6
+        .detail-box
+          h2.custom_heading
+            | About Our Pets
+            span
+              | Clinic
+          p
+            | Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            | industry&apos;s standard dummy text ever since theLorem Ipsum is simply dummy text of the printing and
+            | typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the
+          div
+            a(href='')
+              | About More
+// service section
+section.service_section.layout_padding
+  .container-fluid
+    .row
+      .col-md-6.offset-md-2
+        h2.custom_heading
+          | Our
+          span Services
+        .container.layout_padding2
+          .row
+            .col-md-4
+              .img_box
+                img(src='images/s-1.png' alt='')
+              .detail_box
+                h6
+                  | Pet Care
+                p
+                  | onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  | enim ad minim veniam, quis nostrud exe
+            .col-md-4
+              .img_box
+                img(src='images/s-2.png' alt='')
+              .detail_box
+                h6
+                  | Pet Hotel
+                p
+                  | onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  | enim ad minim veniam, quis nostrud exe
+            .col-md-4
+              .img_box
+                img(src='images/s-3.png' alt='')
+              .detail_box
+                h6
+                  | Emergency
+                p
+                  | onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  | enim ad minim veniam, quis nostrud exe
+        div
+          a(href='')
+            | Read More
+      .col-md-4
+        img.w-100(src='images/tool.png' alt='')
+// end service section
+// gallery section
+section.gallery-section.layout_padding
+  .container
+    h2
+      | Our Gallery
+  .container
+    .img_box.box-1
+      img(src='images/g-1.png' alt='')
+    .img_box.box-2
+      img(src='images/g-2.png' alt='')
+    .img_box.box-3
+      img(src='images/g-3.png' alt='')
+    .img_box.box-4
+      img(src='images/g-4.png' alt='')
+    .img_box.box-5
+      img(src='images/g-5.png' alt='')
+// end gallery section
+// buy section
+section.buy_section.layout_padding
+  .container
+    h2
+      | You Can Buy Pet From Our Clinic
+    p
+      | consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      | veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+    .d-flex.justify-content-center
+      a(href='')
+        | Buy Now
+// end buy section
+// client section
+section.client_section.layout_padding-bottom
+  .container
+    h2.custom_heading.text-center
+      | What Say Our
+      span
+        | clients
+    p.text-center
+      | orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut la
+    #carouselExample2Indicators.carousel.slide(data-ride='carousel')
+      ol.carousel-indicators
+        li.active(data-target='#carouselExample2Indicators' data-slide-to='0')
+        li(data-target='#carouselExample2Indicators' data-slide-to='1')
+        li(data-target='#carouselExample2Indicators' data-slide-to='2')
+      .carousel-inner
+        .carousel-item.active
+          .layout_padding2.pl-100
+            .client_container
+              .img_box
+                img(src='images/client.jpg' alt='')
+              .detail_box
+                h5
+                  | Sandy Mark
+                p
+                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  | et
+                  | dolore
+                  | magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                  | ea
+                  | commodo
+                  | consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+        .carousel-item
+          .layout_padding2.pl-100
+            .client_container
+              .img_box
+                img(src='images/client.jpg' alt='')
+              .detail_box
+                h5
+                  | Sandy Mark
+                p
+                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  | et
+                  | dolore
+                  | magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                  | ea
+                  | commodo
+                  | consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+        .carousel-item
+          .layout_padding2.pl-100
+            .client_container
+              .img_box
+                img(src='images/client.jpg' alt='')
+              .detail_box
+                h5
+                  | Sandy Mark
+                p
+                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  | et
+                  | dolore
+                  | magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                  | ea
+                  | commodo
+                  | consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+// end client section
+// map section
+section.map_section
+  #map.h-100.w-100
+  .form_container
+    .row
+      .col-md-8.col-sm-10.offset-md-4
+        form(action='')
+          .text-center
+            h3
+              | Contact Us
+          div
+            input.pt-3(type='text' placeholder='Name')
+          div
+            input(type=' text' placeholder='Pone Number')
+          div
+            input(type='email' placeholder='Email')
+          div
+            input.message-box(type='text' placeholder='Message')
+          .d-flex.justify-content-center
+            button
+              | SEND
+// end map section
+// info section
+section.info_section.layout_padding2
+  .container
+    .info_items
+      a(href='')
+        .item
+          .img-box.box-1
+            img(src='' alt='')
+          .detail-box
+            p
+              | Location
+      a(href='')
+        .item
+          .img-box.box-2
+            img(src='' alt='')
+          .detail-box
+            p
+              | +02 1234567890
+      a(href='')
+        .item
+          .img-box.box-3
+            img(src='' alt='')
+          .detail-box
+            p
+              | demo@gmail.com
+// end info_section
+// footer section
+section.container-fluid.footer_section
+  p
+    | &copy; 2019 All Rights Reserved By
+    a(href='https://html.design/') Free Html Templates
+// footer section
+script(type='text/javascript' src='javascripts/jquery-3.4.1.min.js')
+script(type='text/javascript' src='javascripts/bootstrap.js')
+script.
+  // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+  // Australia.
+  function initMap() {
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 11,
+      center: {
+        lat: 40.645037,
+        lng: -73.880224
+      },
+    });
+    var image = 'images/maps-and-flags.png';
+    var beachMarker = new google.maps.Marker({
+      position: {
+        lat: 40.645037,
+        lng: -73.880224
+      },
+      map: map,
+      icon: image
+    });
+  }
+// google map js
+script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap')
+// end google map js
